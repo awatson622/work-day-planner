@@ -9,8 +9,7 @@ Work Day Scheduler is a simple calendar app for scheduling your workday. It allo
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Files and Structure](#files-and-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Application Preview](#application-preview)
 
 ## Description
 
