@@ -57,13 +57,13 @@ function initializeTimeBlocks() {
 }
 
 function getStoredEvents() {
-  var storedEvents = JSON.parse(sessionStorage.getItem('events')) || {};
+  var storedEvents = JSON.parse(localStorage.getItem('events')) || {};
   return storedEvents;
 }
 
 // Function to set stored events in session storage
 function setStoredEvents(events) {
-  sessionStorage.setItem('events', JSON.stringify(events));
+  localStorage.setItem('events', JSON.stringify(events));
 }
 
 // Function to transfer events from session storage to local storage
